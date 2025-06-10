@@ -1,0 +1,103 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  background-color: #eae2b7;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 0 20px;
+}
+
+/* Header and footer */
+header, footer {
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Navigation links */
+a:link {
+  color: red;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+/* Headings */
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1em;
+}
+
+/* About Section */
+#about h2,
+#about h3 {
+  text-align: center;
+}
+
+.image-circle {
+  display: block;
+  margin: 1em auto;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #003049;
+}
+
+/* Portfolio Section */
+#portfolio h2,
+#portfolio h3 {
+  text-align: center;
+}
+
+#portfolio img {
+  display: block;
+  margin: 1em auto;
+  max-width: 33%;
+  height: auto;
+  border: 2px solid #003049;
+  border-radius: 8px;
+}
+
+/* Contact Section */
+#contact h2 {
+  text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  body {
+    padding: 0 10px;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  h3 {
+    font-size: 1.2rem;
+  }
+  
+  .image-circle {
+    width: 150px;
+    height: 150px;
+  }
+}
